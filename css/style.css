@@ -1,0 +1,122 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--brand-color);
+}
+.header {
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 0, 8;
+  line-height: 100%;
+  font-weight: 700;
+}
+.header:hover {
+  color: var(--beside-color);
+}
+.header-logo {
+  color: var(--beside-color);
+}
+.title {
+  font-size: 18px;
+  line-height: 0, 5;
+  color: #212121;
+}
+.description {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--brand-color);
+}
+
+.button {
+  background-color: var(--beside-color);
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  line-height: 1.6;
+}
+.button:hover {
+  background-color: var(--beside-color);
+  color: #ffffff;
+  background: var(--beside-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.navigation {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 0, 8;
+  line-height: 100%;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 2%;
+  fill: solid;
+  color: #212121;
+}
+.navigation:hover {
+  color: var(--beside-color);
+}
+.contact {
+  font-size: 14px;
+  list-style-type: none;
+  line-height: 0, 8;
+  color: var(--brand-color);
+  text-decoration: none;
+}
+.contact:hover {
+  color: var(--beside-color);
+}
+
+.solution {
+  font-style: Black;
+  font-size: 44px;
+  line-height: 0, 7;
+  text-align: center;
+  vertical-align: top;
+  color: black;
+}
+.heading {
+  list-style: none;
+}
+.headings {
+  list-style: none;
+  color: black;
+  font-size: 14px;
+  line-height: 0, 8;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 0, 5;
+  color: var(--brand-color);
+}
+.header {
+  font-style: bold;
+  font-size: 36px;
+  line-height: 0, 8;
+  text-align: center;
+  vertical-align: top;
+  color: black;
+  list-style-type: none;
+}
+.person {
+  font-size: 16px;
+  color: black;
+}
+.job {
+  font-size: 16px;
+  color: var(--brand-color);
+}
+.footer {
+  text-decoration: none;
+}
+:root {
+  --brand-color: #757575;
+  --beside-color: #2196f3;
+}
