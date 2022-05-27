@@ -1,11 +1,17 @@
+:root {
+  --brand-color: #757575;
+  --beside-color: #2196f3;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--brand-color);
+  background-color:#E5E5E5;
+
 }
 .header {
   text-decoration: none;
   font-size: 26px;
-  line-height: 0, 8;
+  line-height: 0.8;
   line-height: 100%;
   font-weight: 700;
 }
@@ -15,9 +21,12 @@ body {
 .header-logo {
   color: var(--beside-color);
 }
+.header-logo-studio {
+  color:#ffffff;
+}
 .title {
   font-size: 18px;
-  line-height: 0, 5;
+  line-height: 0.5;
   color: #212121;
 }
 .description {
@@ -25,7 +34,18 @@ body {
   line-height: 30px;
   color: var(--brand-color);
 }
-
+.button-colour {
+color:#ffffff;
+font-size: 16px;
+  font-weight: 500;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  background: var(--beside-color);
+  border-radius: 4px;
+  line-height: 1.6;
+}
 .button {
   background-color: var(--beside-color);
   color: #212121;
@@ -51,7 +71,7 @@ body {
   list-style-type: none;
   text-decoration: none;
   font-size: 14px;
-  line-height: 0, 8;
+  line-height: 0.8;
   line-height: 100%;
   text-align: left;
   vertical-align: top;
@@ -65,7 +85,7 @@ body {
 .contact {
   font-size: 14px;
   list-style-type: none;
-  line-height: 0, 8;
+  line-height: 0.8;
   color: var(--brand-color);
   text-decoration: none;
 }
@@ -76,10 +96,10 @@ body {
 .solution {
   font-style: Black;
   font-size: 44px;
-  line-height: 0, 7;
+  line-height: 0.7;
   text-align: center;
   vertical-align: top;
-  color: black;
+  color:white;
 }
 .heading {
   list-style: none;
@@ -88,18 +108,18 @@ body {
   list-style: none;
   color: black;
   font-size: 14px;
-  line-height: 0, 8;
+  line-height: 0.8;
 }
 
 .text {
   font-size: 14px;
-  line-height: 0, 5;
+  line-height: 0.5;
   color: var(--brand-color);
 }
 .header {
-  font-style: bold;
+  font-style: 700;
   font-size: 36px;
-  line-height: 0, 8;
+  line-height: 0.8;
   text-align: center;
   vertical-align: top;
   color: black;
@@ -115,8 +135,10 @@ body {
 }
 .footer {
   text-decoration: none;
+  color: #ffffff;
 }
-:root {
-  --brand-color: #757575;
-  --beside-color: #2196f3;
+
+.footer-contact {
+  color: #ffffff;
+  
 }
