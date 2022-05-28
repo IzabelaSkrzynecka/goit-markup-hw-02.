@@ -143,6 +143,8 @@ body {
 .footer-header {
   background-color: #2f303a;
   font-size: 26px;
+  line-height: 0.8;
+  font-weight: 700;
   text-decoration: none;
 }
 
