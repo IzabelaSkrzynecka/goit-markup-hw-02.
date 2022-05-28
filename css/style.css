@@ -13,7 +13,6 @@ body {
   line-height: 0.8;
   font-weight: 700;
   background-color: #ffffff;
-  
 }
 .header:hover {
   color: var(--beside-color);
@@ -102,7 +101,7 @@ body {
   text-align: center;
   vertical-align: top;
   color: white;
-  background-color:#2F303A;
+  background-color: #2f303a;
 }
 .heading {
   list-style: none;
@@ -116,7 +115,7 @@ body {
 
 .text {
   font-size: 14px;
-  line-height: 0.7;
+  line-height: 0.9;
   color: var(--brand-color);
 }
 .header {
@@ -139,16 +138,16 @@ body {
 .footer {
   text-decoration: none;
   color: #ffffff;
-  background-color:#2F303A;
+  background-color: #2f303a;
 }
-.footer-header{
-  background-color:#2F303A ;
+.footer-header {
+  background-color: #2f303a;
   font-size: 26px;
-  
+  text-decoration: none;
 }
 
 .footer-contact {
   color: #ffffff;
   opacity: 0.6;
-  background-color:#2F303A;
+  background-color: #2f303a;
 }
