@@ -115,7 +115,7 @@ body {
 
 .text {
   font-size: 14px;
-  line-height: 0.9;
+  line-height: 2;
   color: var(--brand-color);
 }
 .header {
